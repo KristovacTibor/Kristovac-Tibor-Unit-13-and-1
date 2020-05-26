@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> StarFlow </title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $(".toggle").on("click", function(){
+                    if($(".item").hasClass("active")){
+                        $(".item").removeClass("active");
+                    }
+                    else{
+                        $(".item").addClass("active");
+                    }
+                })
+            });
+
+        </script>
+    </head>
+    <body>
+
+        <nav>
+            <ul class="menu">
+            <li class="logo"><a href="index.html">StarFlow</a></li>
+            <li class="item"><a href="index.html">Game</a></li>
+            <li class="item"><a href="updates.html">Updates</a></li>
+            <li class="item"><a href="media.html">Media</a></li>
+            <li class="item"><a href="buynow.html">Buy Now</a></li>
+            <li class="toggle"><span class="bars"></span></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>StarFlow</h1>
+            <div class="topbox">
+                <p>Experience the game that redefined the real time strategy genre.</p>
+            </div>
+
+            <div class="bottombox">
+                <p>With three races, four modes, and infinite ways to play, this game is the ultimate real time strategy experience. Players juggle big picture economy and micro level unit control, pushing them to the very limit of their strategic and tactical capabilities. Experience intergalactic warfare through an epic story campaign, best in class multiplayer competition, and colaborative co-op missions.</p>
+            </div>
+
+            <div class="buyingbox">
+                <p>The galaxy is yours to conquer! Start your advanture today by clicking <a href="buynow.html">HERE</a></p>
+            </div>
+
+        </main>
+        
+    </body>
+
+</html>

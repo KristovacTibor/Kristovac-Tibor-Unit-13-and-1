@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> StarFlow </title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $(".toggle").on("click", function(){
+                    if($(".item").hasClass("active")){
+                        $(".item").removeClass("active");
+                    }
+                    else{
+                        $(".item").addClass("active");
+                    }
+                })
+            });
+
+        </script>
+    </head>
+    <body>
+
+        <nav>
+            <ul class="menu">
+            <li class="logo"><a href="index.html">StarFlow</a></li>
+            <li class="item"><a href="index.html">Game</a></li>
+            <li class="item"><a href="updates.html">Updates</a></li>
+            <li class="item"><a href="media.html">Media</a></li>
+            <li class="item"><a href="buynow.html">Buy Now</a></li>
+            <li class="toggle"><span class="bars"></span></li>
+            </ul>
+        </nav>
+        <main>
+            
+            <div class="toptext">
+                <p>Starflow is the ultimate real time strategy game out there! Start your advanture today and explore the galaxy.</p>
+            </div>
+
+            <button type="button" onclick="alert('Thank you for your purchase!')">BUY NOW</button>
+
+        </main>
+        
+    </body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> StarFlow </title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $(".toggle").on("click", function(){
+                    if($(".item").hasClass("active")){
+                        $(".item").removeClass("active");
+                    }
+                    else{
+                        $(".item").addClass("active");
+                    }
+                })
+            });
+
+        </script>
+    </head>
+    <body>
+
+        <nav>
+            <ul class="menu">
+            <li class="logo"><a href="index.html">StarFlow</a></li>
+            <li class="item"><a href="index.html">Game</a></li>
+            <li class="item"><a href="updates.html">Updates</a></li>
+            <li class="item"><a href="media.html">Media</a></li>
+            <li class="item"><a href="buynow.html">Buy Now</a></li>
+            <li class="toggle"><span class="bars"></span></li>
+            </ul>
+        </nav>
+        <main>
+            
+            
+            <div class="wallpapers">
+                <h3>Wallpapers</h3>
+                <img src="one.jpg" alt="Fourth Picture">
+                <img src="two.jpg" alt="Fourth Picture">
+                <img src="three.jpg" alt="Fourth Picture">
+                <img src="four.jpg" alt="Fourth Picture">
+                <img src="five.jpg" alt="Fourth Picture">
+                </div>
+
+            </div>
+            <div class="videos">
+                <h3>Videos</h3>
+                <img src="firstvideo.jpg" alt="Fourth Picture">
+                <img src="secondvideo.jpg" alt="Fourth Picture">
+                <img src="thirdvideo.jpg" alt="Fourth Picture">
+                <img src="fourthvideo.jpg" alt="Fourth Picture">
+                </div>
+
+            </div>
+
+        </main>
+        
+    </body>
+
+</html>
