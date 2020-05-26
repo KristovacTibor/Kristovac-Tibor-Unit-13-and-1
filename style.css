@@ -207,6 +207,17 @@ button:hover{
     background-color: white;
     color: black;
 }
+.firstbutton{
+    width: 200px;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 10px 10px;
+    background-color: rgb(2, 40, 68);
+    font-weight: bold;
+    font-size: 20px;
+}
+
 
 
 /* TABLET and PC */
@@ -225,7 +236,7 @@ button:hover{
     border: 2px solid rgb(0, 0, 0);
     border-radius: 30em;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     }
     .item a:hover{
         transition: .4s;
@@ -237,7 +248,7 @@ button:hover{
     text-decoration: none;
     width: 110px;
     font-size: 36px;
-    margin-left: 40px;
+    margin-left: 5px;
     letter-spacing: 2px;
     }
     .buyingbox{
@@ -285,6 +296,18 @@ button:hover{
         border-radius: 40px;
         text-align: center;
     }
+    p{
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+    .firstbutton{
+        width: 100px;
+        margin-left: 1%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 20px;
+    }
+        
 
 }
 
@@ -328,6 +351,16 @@ button:hover{
     }
     .logo a{
         font-size: 45px;
+    }
+    .firstbutton{
+        width: 300px;
+        margin-left: 1%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding: 5px 5px;
+        background-color: rgb(2, 40, 68);
+        font-weight: bold;
+        font-size: 32px;
     }
    
 }
